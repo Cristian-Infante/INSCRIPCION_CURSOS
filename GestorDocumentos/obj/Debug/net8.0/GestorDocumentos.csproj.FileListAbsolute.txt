@@ -1,0 +1,15 @@
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\bin\Debug\net8.0\GestorDocumentos.deps.json
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\bin\Debug\net8.0\GestorDocumentos.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\bin\Debug\net8.0\GestorDocumentos.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\bin\Debug\net8.0\Entidades.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\bin\Debug\net8.0\Entidades.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDo.B306E4BF.Up2Date
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\refint\GestorDocumentos.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\ref\GestorDocumentos.dll

@@ -1,0 +1,15 @@
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\bin\Debug\net8.0\FabricaDeObjetos.deps.json
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\bin\Debug\net8.0\FabricaDeObjetos.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\bin\Debug\net8.0\FabricaDeObjetos.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\bin\Debug\net8.0\Entidades.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\bin\Debug\net8.0\Entidades.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaD.C715C300.Up2Date
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\refint\FabricaDeObjetos.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\ref\FabricaDeObjetos.dll

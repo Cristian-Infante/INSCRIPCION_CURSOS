@@ -1,0 +1,15 @@
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\bin\Debug\net8.0\SistemaClientes.deps.json
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\bin\Debug\net8.0\SistemaClientes.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\bin\Debug\net8.0\SistemaClientes.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\bin\Debug\net8.0\Entidades.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\bin\Debug\net8.0\Entidades.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaC.C013658E.Up2Date
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\refint\SistemaClientes.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\ref\SistemaClientes.dll

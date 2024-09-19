@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>INSCRIPCION_CURSOS</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\VistaConsola\VistaConsola.csproj" />
+      <ProjectReference Include="..\VistaEscritorio\VistaEscritorio.csproj" />
+    </ItemGroup>
+
+</Project>
