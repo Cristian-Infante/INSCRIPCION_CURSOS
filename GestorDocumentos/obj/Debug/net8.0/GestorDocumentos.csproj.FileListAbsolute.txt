@@ -13,3 +13,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Deb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\refint\GestorDocumentos.dll
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\ref\GestorDocumentos.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\GestorDocumentos\obj\Debug\net8.0\GestorDocumentos.sourcelink.json

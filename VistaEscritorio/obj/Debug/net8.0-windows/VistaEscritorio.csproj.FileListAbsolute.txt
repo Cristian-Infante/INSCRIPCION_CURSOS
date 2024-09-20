@@ -79,3 +79,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaEscritorio\obj\Debu
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaEscritorio\obj\Debug\net8.0-windows\VistaEscritorio.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaEscritorio\obj\Debug\net8.0-windows\VistaEscritorio.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaEscritorio\obj\Debug\net8.0-windows\ref\VistaEscritorio.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaEscritorio\obj\Debug\net8.0-windows\VistaEscritorio.sourcelink.json

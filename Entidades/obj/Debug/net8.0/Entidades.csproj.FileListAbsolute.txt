@@ -9,3 +9,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Entidades\obj\Debug\net8
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Entidades\obj\Debug\net8.0\refint\Entidades.dll
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Entidades\obj\Debug\net8.0\Entidades.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Entidades\obj\Debug\net8.0\ref\Entidades.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Entidades\obj\Debug\net8.0\Entidades.sourcelink.json

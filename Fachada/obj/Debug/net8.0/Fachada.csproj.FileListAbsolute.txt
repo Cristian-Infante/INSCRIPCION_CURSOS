@@ -23,3 +23,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Fachada\bin\Debug\net8.0
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Fachada\bin\Debug\net8.0\SistemaClientes.dll
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Fachada\bin\Debug\net8.0\GestorDocumentos.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Fachada\bin\Debug\net8.0\SistemaClientes.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Fachada\obj\Debug\net8.0\Fachada.sourcelink.json

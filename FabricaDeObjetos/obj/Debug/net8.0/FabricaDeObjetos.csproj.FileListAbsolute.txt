@@ -13,3 +13,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Deb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\refint\FabricaDeObjetos.dll
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\ref\FabricaDeObjetos.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\FabricaDeObjetos\obj\Debug\net8.0\FabricaDeObjetos.sourcelink.json

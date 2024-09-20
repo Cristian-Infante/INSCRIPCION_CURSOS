@@ -27,3 +27,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaConsola\bin\Debug\n
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaConsola\bin\Debug\net8.0\SistemaClientes.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaConsola\bin\Debug\net8.0\FabricaDeObjetos.dll
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaConsola\bin\Debug\net8.0\FabricaDeObjetos.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\VistaConsola\obj\Debug\net8.0\VistaConsola.sourcelink.json

@@ -17,7 +17,7 @@ public class VistaConsola
     {
         while (true)
         {
-            Console.Clear();
+            //Console.Clear();
             Console.WriteLine("Sistema de Inscripción de Cursos");
             Console.WriteLine("1. Inscribir a un curso");
             Console.WriteLine("2. Agregar persona");

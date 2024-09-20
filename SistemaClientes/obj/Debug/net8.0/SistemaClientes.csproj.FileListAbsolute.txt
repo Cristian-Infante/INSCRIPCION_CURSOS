@@ -13,3 +13,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debu
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\refint\SistemaClientes.dll
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\ref\SistemaClientes.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\SistemaClientes\obj\Debug\net8.0\SistemaClientes.sourcelink.json

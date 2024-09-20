@@ -13,3 +13,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Persistencia\obj\Debug\n
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Persistencia\obj\Debug\net8.0\refint\Persistencia.dll
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Persistencia\obj\Debug\net8.0\Persistencia.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Persistencia\obj\Debug\net8.0\ref\Persistencia.dll
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Persistencia\obj\Debug\net8.0\Persistencia.sourcelink.json

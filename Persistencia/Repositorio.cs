@@ -15,9 +15,12 @@ public class Repositorio
     }
 
     // Implementación Singleton
-
-    public static Repositorio Instancia(string cadenaConexion = "Data Source=InscripcionCursos.db;")
+    public static Repositorio Instancia()
     {
+        string directorioActual = AppDomain.CurrentDomain.BaseDirectory;
+        string directorioProyecto = Path.GetFullPath(Path.Combine(directorioActual, @"..\..\.."));
+        string rutaDb = Path.Combine(directorioProyecto, "InscripcionCursos.db");
+
         Console.WriteLine("Obteniendo instancia...");
         if (_instancia == null)
         {
@@ -28,7 +31,7 @@ public class Repositorio
                 if (_instancia == null)
                 {
                     Console.WriteLine("Creando instancia...");
-                    _instancia = new Repositorio(cadenaConexion);
+                    _instancia = new Repositorio($"Data Source={rutaDb};Default Timeout=30;");
                     _instancia.EnsureCreated();
                 }
             }
@@ -84,12 +87,13 @@ public class Repositorio
             {
                 try
                 {
-                    accion(conexion, transaccion);  // Pasas la transacción a través de la acción
+                    accion(conexion, transaccion);
                     transaccion.Commit();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
                     transaccion.Rollback();
+                    Console.WriteLine($"Error durante la transacción: {ex.Message}");
                     throw;
                 }
             }
@@ -110,29 +114,23 @@ public class Repositorio
         });
     }
 
-    public Persona? ObtenerPersonaPorId(int id)
+    public Persona? ObtenerPersonaPorId(int id, SqliteConnection conexion, SqliteTransaction transaccion)
     {
-        using (var conexion = new SqliteConnection(_cadenaConexion))
-        {
-            conexion.Open();
-            using (var transaccion = conexion.BeginTransaction())  // Inicia una transacción si es necesario
-            {
-                var cmd = new SqliteCommand("SELECT * FROM Personas WHERE Id = @Id", conexion, transaccion);  // Asigna la transacción al comando
-                cmd.Parameters.AddWithValue("@Id", id);
+        Console.WriteLine($"Buscando persona con ID: {id}");
+        var cmd = new SqliteCommand("SELECT * FROM Personas WHERE Id = @Id", conexion, transaccion);
+        cmd.Parameters.AddWithValue("@Id", id);
 
-                using (var reader = cmd.ExecuteReader())
+        using (var reader = cmd.ExecuteReader())
+        {
+            if (reader.Read())
+            {
+                return new Persona
                 {
-                    if (reader.Read())
-                    {
-                        return new Persona
-                        {
-                            Id = reader.GetInt32(reader.GetOrdinal("Id")),
-                            Nombre = reader.GetString(reader.GetOrdinal("Nombre")),
-                            CreditosMaximos = reader.GetInt32(reader.GetOrdinal("CreditosMaximos")),
-                            CreditosActuales = reader.GetInt32(reader.GetOrdinal("CreditosActuales"))
-                        };
-                    }
-                }
+                    Id = reader.GetInt32(reader.GetOrdinal("Id")),
+                    Nombre = reader.GetString(reader.GetOrdinal("Nombre")),
+                    CreditosMaximos = reader.GetInt32(reader.GetOrdinal("CreditosMaximos")),
+                    CreditosActuales = reader.GetInt32(reader.GetOrdinal("CreditosActuales"))
+                };
             }
         }
         return null;
@@ -150,43 +148,33 @@ public class Repositorio
         });
     }
 
-    public Curso ObtenerCursoPorId(int id)
+    public Curso? ObtenerCursoPorId(int id, SqliteConnection conexion, SqliteTransaction transaccion)
     {
-        using (var conexion = new SqliteConnection(_cadenaConexion))
+        var cmd = new SqliteCommand("SELECT * FROM Cursos WHERE Id = @Id", conexion, transaccion);
+        cmd.Parameters.AddWithValue("@Id", id);
+        using (var reader = cmd.ExecuteReader())
         {
-            conexion.Open();
-            using (var transaccion = conexion.BeginTransaction())
+            if (reader.Read())
             {
-                var cmd = new SqliteCommand("SELECT * FROM Cursos WHERE Id = @Id", conexion, transaccion);
-                cmd.Parameters.AddWithValue("@Id", id);
-                using (var reader = cmd.ExecuteReader())
+                return new Curso
                 {
-                    if (reader.Read())
-                    {
-                        return new Curso
-                        {
-                            Id = reader.GetInt32(reader.GetOrdinal("Id")),
-                            Nombre = reader.GetString(reader.GetOrdinal("Nombre")),
-                            Creditos = reader.GetInt32(reader.GetOrdinal("Creditos"))
-                        };
-                    }
-                }
+                    Id = reader.GetInt32(reader.GetOrdinal("Id")),
+                    Nombre = reader.GetString(reader.GetOrdinal("Nombre")),
+                    Creditos = reader.GetInt32(reader.GetOrdinal("Creditos"))
+                };
             }
         }
         return null;
     }
 
-    public void AgregarInscripcion(Inscripcion inscripcion)
+    public void AgregarInscripcion(Inscripcion inscripcion, SqliteConnection conexion, SqliteTransaction transaccion)
     {
-        EjecutarTransaccion((conexion, transaccion) =>
-        {
-            var cmd = new SqliteCommand("INSERT INTO Inscripciones (PersonaId, CursoId, FechaInscripcion) VALUES (@PersonaId, @CursoId, @FechaInscripcion)", conexion, transaccion);
-            cmd.Parameters.AddWithValue("@PersonaId", inscripcion.PersonaId);
-            cmd.Parameters.AddWithValue("@CursoId", inscripcion.CursoId);
-            cmd.Parameters.AddWithValue("@FechaInscripcion", inscripcion.FechaInscripcion);
-            cmd.ExecuteNonQuery();
-            inscripcion.Id = Convert.ToInt32((long)new SqliteCommand("SELECT last_insert_rowid()", conexion, transaccion).ExecuteScalar());
-        });
+        var cmd = new SqliteCommand("INSERT INTO Inscripciones (PersonaId, CursoId, FechaInscripcion) VALUES (@PersonaId, @CursoId, @FechaInscripcion)", conexion, transaccion);
+        cmd.Parameters.AddWithValue("@PersonaId", inscripcion.PersonaId);
+        cmd.Parameters.AddWithValue("@CursoId", inscripcion.CursoId);
+        cmd.Parameters.AddWithValue("@FechaInscripcion", inscripcion.FechaInscripcion.ToString("o")); // Formato ISO 8601
+        cmd.ExecuteNonQuery();
+        inscripcion.Id = Convert.ToInt32((long)new SqliteCommand("SELECT last_insert_rowid()", conexion, transaccion).ExecuteScalar());
     }
 
     // Métodos para listar Personas y Cursos

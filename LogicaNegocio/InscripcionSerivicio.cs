@@ -21,14 +21,19 @@ public class InscripcionServicio : IInscripcionServicio
 
     public void InscribirCurso(int personaId, int cursoId)
     {
+        Console.WriteLine("Inscribiendo curso...");
         _repositorio.EjecutarTransaccion((conexion, transaccion) =>
         {
-            // Obtener la persona
-            var persona = _repositorio.ObtenerPersonaPorId(personaId);
+            Console.WriteLine("Dentro de la transacción...");
+        
+            // Obtener la persona usando la conexión y transacción actuales
+            var persona = _repositorio.ObtenerPersonaPorId(personaId, conexion, transaccion);
+            Console.WriteLine(persona);
             if (persona == null) throw new Exception("Persona no encontrada");
 
-            // Obtener el curso
-            var curso = _repositorio.ObtenerCursoPorId(cursoId);
+            // Obtener el curso usando la conexión y transacción actuales
+            var curso = _repositorio.ObtenerCursoPorId(cursoId, conexion, transaccion);
+            Console.WriteLine(curso);
             if (curso == null) throw new Exception("Curso no encontrado");
 
             // Verificar si se pueden inscribir los créditos
@@ -48,7 +53,7 @@ public class InscripcionServicio : IInscripcionServicio
                 CursoId = cursoId,
                 FechaInscripcion = DateTime.Now
             };
-            _repositorio.AgregarInscripcion(inscripcion);
+            _repositorio.AgregarInscripcion(inscripcion, conexion, transaccion); // Modifica también este método
 
             // Notificar al cliente
             _clienteServicio.NotificarInscripcion(persona, curso);

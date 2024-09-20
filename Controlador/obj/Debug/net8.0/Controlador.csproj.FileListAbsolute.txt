@@ -21,3 +21,4 @@ C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Controlador\bin\Debug\ne
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Controlador\bin\Debug\net8.0\SistemaClientes.dll
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Controlador\bin\Debug\net8.0\GestorDocumentos.pdb
 C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Controlador\bin\Debug\net8.0\SistemaClientes.pdb
+C:\Users\ASUS\OneDrive\Escritorio\C#\INSCRIPCION_CURSOS\Controlador\obj\Debug\net8.0\Controlador.sourcelink.json
